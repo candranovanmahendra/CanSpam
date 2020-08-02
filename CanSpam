@@ -1,16 +1,28 @@
+
 clear
 
-figlet TOOL V2 | lolcat
-echo -e "=========================="
-echo -e " AUTHOR : MR.GRIMX72"
-echo -e " YOUTUBE: Belum Ada"
-echo -e " VERSION : TOOLS V2"
-echo -e "=========================="
+red="\033[1;31m"
+blu="\033[1;96m"
 
-read -p "Masukan no Target : " nomor
+sleep 1
+echo "${blu} [!] Loading . . ."
+echo "${blu} Orang sabar di sayang tuhan:)"
+sleep 3
+clear
+
+figlet Spam Call | lolcat
+echo "${red}════════════════════════════"
+echo "${blu} Author  : MR.GRIMX72"
+echo "${blu} Youtube: Belum Ada"
+echo "${blu} Version : Spam Version 1"
+echo "${red}════════════════════════════\n${blu}"
+sleep 1
+read -p "[+] Masukan No Target : " nomor
 link="https://id.jagreward.com/member/verify-mobile/$nomor"
+echo "${red}[×] Limit bro"
 curl -s $link
 sleep 1
+echo
 figlet Selesai | lolcat
 exit
 fi
