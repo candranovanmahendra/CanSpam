@@ -1,11 +1,11 @@
 clear
 
 figlet TOOL V2 | lolcat
-echo "=========================="
-echo " AUTHOR : MR.GRIMX72"
-echo " YOUTUBE: Belum Ada"
-echo " VERSION : TOOLS V2
-echo "=========================="
+echo -e "=========================="
+echo -e " AUTHOR : MR.GRIMX72"
+echo -e " YOUTUBE: Belum Ada"
+echo -e " VERSION : TOOLS V2"
+echo -e "=========================="
 
 read -p "Masukan no Target : " nomor
 link="https://id.jagreward.com/member/verify-mobile/$nomor"
